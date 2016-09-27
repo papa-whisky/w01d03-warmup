@@ -19,4 +19,4 @@ var thatArray = ["Facebook Platform","Erlang Enthusiasts","Ex-Girlfriends",
 var rand1 = thisArray[Math.floor(Math.random() * thisArray.length)];
 var rand2 = thatArray[Math.floor(Math.random() * thatArray.length)];
 
-console.log(rand1 + ' ' + rand2);
+console.log('Your startup is like ' + rand1 + ' for ' + rand2 + '.');
